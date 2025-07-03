@@ -1,0 +1,24 @@
+{
+  "name": "ProtonMail Free",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "com.nothankyou.org",
+    "productName": "ProtonMail Free",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.6.0"
+  }
+}
+
