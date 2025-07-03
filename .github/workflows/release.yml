@@ -21,6 +21,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+        - name: Install snapcraft
+          run: |
+            sudo apt update
+            sudo apt install snapcraft -y
+
+
       - name: Build with electron-builder
         run: npm run dist
 
